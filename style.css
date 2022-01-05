@@ -52,14 +52,17 @@ color: #5961DD;
 #half-wid1{
     width: 50%;
     border-left: 8px solid;
+    margin: 330px 30px 0px 30px ;
     padding: 0% 6% 0% 6% ;
+    border-image: linear-gradient(#000000, #5961DD);
+    border-image-slice: 1;
     box-shadow: 10px 5px 5px 3px grey;
     height: 75%;
 }
 #half-wid2{
     width: 50%;
     padding: 0% 6% 0% 6% ;
-    margin: 30px;
+    margin: 30px 30px 0px 30px ;
     border-left: 8px solid;
     border-image: linear-gradient(#5961DD, #000000);
     border-image-slice: 1;
